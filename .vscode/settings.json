@@ -1,0 +1,27 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "mysl",
+            "group": "mysl",
+            "database": "sql_course",
+            "username": "postgres",
+            "connectionTimeout": 30,
+            "password": "chelsea123"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "contoso_100k",
+            "database": "contoso_100k",
+            "username": "postgres"
+        }
+    ]
+}
